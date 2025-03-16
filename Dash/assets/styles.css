@@ -1,0 +1,84 @@
+/* สีพื้นหลังและข้อความ */
+body {
+    background-color: #1E1E1E; /* สีดำ */
+    color: #FFFFFF; /* สีขาว */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* หัวข้อหลัก */
+h1 {
+    text-align: center;
+    color: #00BFFF; /* สีฟ้า */
+}
+
+/* หัวข้อย่อย */
+h3 {
+    color: #FF69B4; /* สีชมพู */
+}
+
+/* กราฟ */
+.dash-graph {
+    background-color: #1E1E1E; /* สีดำ */
+    border: 1px solid #00BFFF; /* สีฟ้า */
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* แผนที่ */
+.leaflet-container {
+    border: 2px solid #FF69B4; /* สีชมพู */
+    border-radius: 10px;
+}
+
+/* กล่องค่าเฉลี่ย */
+.average-box {
+    background-color: #1E1E1E;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.average-box h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.average-box p {
+    margin: 0;
+}
+
+/* ตาราง */
+.dash-table {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.dash-table th {
+    background-color: #1E1E1E;
+    font-weight: bold;
+}
+
+.dash-table td {
+    background-color: #1E1E1E;
+}
+
+/* Dropdown */
+.Select-control {
+    background-color: #1E1E1E !important;
+    color: #FFFFFF !important;
+}
+
+.Select-menu-outer {
+    background-color: #1E1E1E !important;
+    color: #FFFFFF !important;
+}
+
+.Select-value-label {
+    color: #FFFFFF !important;
+}
